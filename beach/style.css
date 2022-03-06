@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/beachshowcase.jpg);
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #61421a;
+  font-size: large;
+  line-height: 1.4;
+}
+
+.section-1 h1 {
+  padding-top: 250px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.section-1 p {
+  padding: 50px 0 20px 0;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none !important;
+  border: solid;
+  border-width: 1px;
+  padding: 20px;
+  margin: 0 150px;
+  color: #61421a;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: #61421a;
+  color: white;
+}
+
+.section-2 {
+  background-color: #61421a;
+  color: white;
+  padding: 20px;
+  font-size: small;
+}
+
+.section-3 {
+  background-color: white;
+  color: #61421a;
+  padding: 20px;
+  font-size: small;
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.paragraph-1,
+.paragraph-3 {
+  background-color: #61421a;
+  color: white;
+  padding: 20px;
+  font-size: small;
+}
+
+.paragraph-2 {
+  background-color: white;
+  color: #61421a;
+  padding: 20px;
+  font-size: small;
+}
+
+@media (max-width: 500px) {
+  main {
+    font-size: 50%;
+  }
+}

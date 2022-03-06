@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #ccc;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  max-width: 80rem;
+  margin: auto;
+  -webkit-box-shadow: -6px 7px 45px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -6px 7px 45px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -6px 7px 45px 0px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+  top: 30vh;
+}
+
+.section-1 h1 {
+  position: relative;
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-1 h2 {
+  color: #ccc;
+}
+
+.button {
+  display: inline-block;
+  background-color: white;
+  color: #ccc;
+  padding: 2rem 0;
+  border: 0.1rem #ccc solid;
+  font-size: medium;
+  padding: 2rem;
+  margin: 1rem 30rem;
+  text-decoration: none;
+  border-radius: 10rem;
+  transition: background-color 0.05s ease-in;
+}
+
+.button:hover {
+  background-color: #ccc;
+  color: white;
+}
+
+.bar {
+  position: relative;
+  background-color: black;
+  color: white;
+  padding: 2rem 0;
+  z-index: 1;
+}
+
+.bar h2 {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  border-left: dotted 0.1rem white;
+  border-right: dotted 0.1rem white;
+  padding: 0 1rem;
+}
+
+.section-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-2 img {
+  padding: 2rem;
+  max-width: 50rem;
+}
+
+.section-2 p {
+  padding: 0.5rem 2rem;
+  font-size: small;
+}
+
+.section-3 {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.section-3 h1 {
+  font-size: 4em;
+}
+
+.section-3 p {
+  font-size: 1.5em;
+}
+
+.section-3 p span {
+  font-weight: bold;
+}
