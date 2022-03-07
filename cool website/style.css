@@ -10,7 +10,7 @@
 .section-7 {
   width: 100%;
   height: 100vh;
-  background-image: url(./photo-1480714378408-67cf0d13bc1b.jpg);
+  background-image: url(./images/photo-1480714378408-67cf0d13bc1b.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@
   width: 100%;
   height: fit-content;
   padding: 150px 0;
-  background-image: url(./photo-1540959733332-eab4deabeeaf.jpg);
+  background-image: url(./images/photo-1540959733332-eab4deabeeaf.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -79,7 +79,7 @@ h2 {
 }
 
 .section-5 {
-  background-image: url(./photo-1449157291145-7efd050a4d0e.jpg);
+  background-image: url(./images/photo-1449157291145-7efd050a4d0e.jpg);
 }
 
 @media (max-width: 600px) {
