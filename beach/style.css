@@ -17,49 +17,41 @@
   background-size: cover;
   text-align: center;
   color: #61421a;
-  font-size: large;
-  line-height: 1.4;
+  font-size: 20px;
 }
 
 .section-1 h1 {
   padding-top: 250px;
-  text-align: center;
-  font-weight: bolder;
 }
 
 .section-1 p {
-  padding: 50px 0 20px 0;
+  padding: 20px 5px 10px 5px;
 }
 
 .button {
   display: inline-block;
-  text-align: center;
-  text-decoration: none !important;
   border: solid;
   border-width: 1px;
   padding: 20px;
-  margin: 0 150px;
   color: #61421a;
   border-radius: 20px;
 }
 
 .button:hover {
   background-color: #61421a;
-  color: white;
+  color: #ffffff;
 }
 
 .section-2 {
   background-color: #61421a;
-  color: white;
+  color: #ffffff;
   padding: 20px;
-  font-size: small;
 }
 
 .section-3 {
-  background-color: white;
+  background-color: #ffffff;
   color: #61421a;
   padding: 20px;
-  font-size: small;
 }
 
 .section-4 {
@@ -70,20 +62,23 @@
 .paragraph-1,
 .paragraph-3 {
   background-color: #61421a;
-  color: white;
+  color: #ffffff;
   padding: 20px;
-  font-size: small;
 }
 
 .paragraph-2 {
-  background-color: white;
+  background-color: #ffffff;
   color: #61421a;
   padding: 20px;
-  font-size: small;
 }
 
 @media (max-width: 500px) {
   main {
-    font-size: 50%;
+    font-size: 10px;
+  }
+
+  .section-1 {
+    font-size: 15px;
+    height: 80vh;
   }
 }
