@@ -1,0 +1,14 @@
+/* create new repo 
+prima varianta : github -> create repo ->..... -> code button -> click ->  click copy btn clone https -> 
+ open  bash terminal -> cd in folderul unde vrei sa lucrezi -> `git clone la ce ai facut copy din github`
+  ( https://github.com/bgcristina/html-css.git) -> deschizi vs code cd in folderul unde lucrezi sau direct open folder din vs code ->
+   git status ca sa verifici branch-ul  */
+
+   /* comezi generale pt git
+  git checkout numebranch - te duci pe un anumit branch eg : git checkout main
+  git checkout -b numebranch - creezi un nou branch
+   git status :  verifici ce fisiere ai modificat
+  dupa ce ai mofificat fisierele faci asta : 
+  git commit -m "mesaj" -a (cu -a adaugi toate fisierele modificate)
+  git push origin numeBranch
+   */
